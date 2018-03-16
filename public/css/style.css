@@ -8,7 +8,7 @@ body {
 header {
   background-color: #405966;
   color: #95a8b3;
-  height: 15vh; }
+  height: auto; }
   header h1 {
     font-size: 2.5em;
     margin: 0;
@@ -25,7 +25,7 @@ header {
     text-align: center;
     text-shadow: #333 1px 1px 3px;
     z-index: 1; }
-  header .mob-btn-menu {
+  header .mob-btn {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -34,8 +34,8 @@ header {
   header nav {
     background-color: #405966;
     width: 100vw;
-    height: auto;
-    padding-top: 8px; }
+    height: 0px;
+    overflow: hidden; }
     header nav ul {
       list-style: none;
       padding: 0;

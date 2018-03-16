@@ -10,7 +10,7 @@ body {
 header {
     background-color: #405966;
     color: #95a8b3;
-    height: 15vh;
+    height: auto;
 
     h1 {
         font-size: 2.5em;
@@ -32,7 +32,7 @@ header {
         z-index: 1;
     }
 
-    .mob-btn-menu {
+    .mob-btn {
         position: absolute;
         top: 10px;
         right: 10px;
@@ -43,14 +43,15 @@ header {
     nav {
         background-color: #405966;
         width: 100vw;
-        height: auto;
-        padding-top: 8px;
+        height: 0px;
+        overflow: hidden;
         
     
         ul{
             list-style: none;
             padding: 0;
             padding-bottom: 3px;
+            
             
             
             li{
