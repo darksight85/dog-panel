@@ -1,0 +1,28 @@
+body {
+  background-color: #ded9d1 !important;
+  margin: 0; }
+
+.container-fluid {
+  padding: 0 !important; }
+
+header {
+  background-color: #405966;
+  height: 220px;
+  color: #95a8b3; }
+  header h1 {
+    text-align: center;
+    font-size: 3em;
+    text-shadow: #333 1px 1px 6px; }
+  header h4 {
+    text-align: center;
+    color: #edd2ab;
+    text-shadow: #333 1px 1px 3px; }
+
+nav {
+  display: none; }
+  nav ul {
+    list-style: none;
+    text-align: center; }
+    nav ul li {
+      display: inline-block;
+      color: #edd2ab; }
